@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Anek Bangla", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-color: rgba(22, 21, 21, 0.5333333333);
+  color: white;
+}
+header img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+  margin-left: -5%;
+  height: 15vh;
+}
+header nav .navh1 {
+  width: 40%;
+  margin: auto;
+}
+header nav .navh1 h1 {
+  width: 70%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+header nav .navh1 .bolder {
+  font-weight: bolder;
+}
+header nav ul {
+  display: flex;
+  width: 30%;
+  margin-left: 30%;
+}
+header nav ul li {
+  width: 10%;
+  margin: auto;
+  list-style: none;
+  color: #ffffff;
+}
+header .headerdiv1 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 7%;
+}
+header .headerdiv1 h1 {
+  font-size: 50px;
+}
+header .headerdiv1 p {
+  font-size: 2rem;
+  color: #8897a2;
+  width: 100%;
+}
+header .headerdiv1 button {
+  background-color: #f32853;
+  padding: 1.1% 2.5%;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 4%;
+}
+
+.texte {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 6vh;
+}
+.texte .zb {
+  width: 18%;
+  margin-bottom: 10px;
+  height: auto;
+}
+.texte .zb h1 {
+  font-size: 5.5vh;
+}
+.texte .bz {
+  width: 25%;
+  height: auto;
+}
+
+.texte2 {
+  width: 100%;
+  height: auto;
+  background-color: #f6f6f6;
+}
+.texte2 .textea {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10vh;
+  margin-left: -10vh;
+}
+.texte2 .textea h1 {
+  color: #575757;
+  font-size: 7vh;
+}
+.texte2 .textea p {
+  color: #575757;
+  font-size: 3vh;
+}
+.texte2 .imges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.texte2 .imges .image1 {
+  flex-direction: column;
+  text-align: center;
+}
+.texte2 .imges .image1 h2 {
+  padding: 3vh;
+  background-color: white;
+  box-shadow: 2px 2px 1px 1px #eaeaea;
+  color: #575757;
+}
+.texte2 .imges .image2 {
+  flex-direction: column;
+  text-align: center;
+}
+.texte2 .imges .image2 h2 {
+  padding: 3vh;
+  background-color: white;
+  box-shadow: 2px 2px 1px 1px #eaeaea;
+  color: #575757;
+}
+.texte2 .image3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+.texte2 .image3 button {
+  width: auto;
+  height: auto;
+  font-size: 3vh;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 1% 2%;
+  border: none;
+}
+.texte2 .image3 .ab {
+  background-color: #f32851;
+  color: white;
+}
+.texte2 .image3 .az {
+  background-color: #323037;
+  color: white;
+}
+
+.sectionp {
+  background-color: rgb(255, 255, 255);
+  padding-top: 3%;
+}
+.sectionp div {
+  margin-left: 18.5%;
+}
+.sectionp div h2 {
+  font-size: 60px;
+}
+.sectionp div h4 {
+  font-size: 20px;
+  color: grey;
+}
+
+.sectionm {
+  margin-left: -7 vh;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+.sectionm .div-elem1 {
+  margin-left: 22.5%;
+  display: grid;
+  grid-template-columns: 20% 15% 15% 20%;
+  gap: 25px;
+  padding-bottom: 2%;
+}
+.sectionm .div-elem1 .first {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  flex-wrap: wrap;
+  vh: 50vh;
+  margin-left: -10vh;
+}
+.sectionm .div-elem1 .first h6 {
+  font-size: 20px;
+}
+.sectionm .div-elem1 .first .para {
+  color: grey;
+}
+.sectionm .div-elem1 .first p {
+  text-align: end;
+  font-size: 17px;
+}
+.sectionm .div-elem1 img {
+  border-radius: 50%;
+  border: solid 4px rgb(227, 227, 227);
+}
+.sectionm .div-elem1 .second {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50vh;
+}
+.sectionm .div-elem1 .second h6 {
+  font-size: 20px;
+}
+.sectionm .div-elem1 .second .para {
+  color: grey;
+}
+.sectionm .div-elem1 .second p {
+  text-align: start;
+  font-size: 17px;
+}
+
+.fin {
+  background-image: url(../images/banner.jpg);
+  background-color: #666565;
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+.fin div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.fin div h2 {
+  color: white;
+  font-size: 40px;
+}
+.fin div p {
+  font-size: 20px;
+  color: grey;
+}
+.fin div button {
+  background-color: rgb(243, 40, 83);
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  margin: 2%;
+  border-radius: 9%;
+  border: none;
+}
+
+footer {
+  background-color: white;
+  padding: 5%;
+}
+footer div:nth-child(1) {
+  display: flex;
+  gap: 55px;
+  justify-content: center;
+}
+footer div:nth-child(1) i {
+  font-size: 2rem;
+  color: grey;
+}
+footer div:nth-child(2) {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  gap: 3%;
+  margin-left: 3%;
+}
+footer div:nth-child(2) p:nth-child(2) {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-color: rgba(22, 21, 21, 0.5333333333);
+  color: white;
+}
+header img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+  margin-left: -5%;
+  height: 15vh;
+}
+header nav .navh1 {
+  width: 40%;
+  margin: auto;
+}
+header nav .navh1 h1 {
+  width: 70%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+header nav .navh1 .bolder {
+  font-weight: bolder;
+}
+header nav ul {
+  display: flex;
+  width: 30%;
+  margin-left: 30%;
+}
+header nav ul li {
+  width: 10%;
+  margin: auto;
+  list-style: none;
+  color: #ffffff;
+}
+header .headerdiv1 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 7%;
+}
+header .headerdiv1 h1 {
+  font-size: 50px;
+}
+header .headerdiv1 p {
+  font-size: 2rem;
+  color: #8897a2;
+  width: 100%;
+}
+header .headerdiv1 button {
+  background-color: #f32853;
+  padding: 1.1% 2.5%;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 4%;
+}
+
+/*# sourceMappingURL=style.css.map */
